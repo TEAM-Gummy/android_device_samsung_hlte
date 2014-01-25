@@ -50,6 +50,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/hlte/media/media_profiles.xml:system/etc/media_profiles.xml
 
+# Note3 Advanced Settings
+PRODUCT_PACKAGES += \
+    GummyNote3Settings 
+
 # support for epen
 PRODUCT_COPY_FILES += \
     device/samsung/hlte/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
