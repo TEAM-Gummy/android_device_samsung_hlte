@@ -35,6 +35,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 TARGET_KERNEL_SOURCE := kernel/samsung/hlte
 TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F
