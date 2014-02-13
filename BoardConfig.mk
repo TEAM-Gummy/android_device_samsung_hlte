@@ -132,3 +132,10 @@ TARGET_INIT_VENDOR_LIB := libinit_msm
 TARGET_LIBINIT_DEFINES_FILE := device/samsung/hlte/init/init_hlte.c
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/hlte
+
+# The "new" GPS is really the old GPS, override it.
+BOARD_HAVE_NEW_QC_GPS :=
+
+# We don't use old-ass RPC
+TARGET_NO_RPC := true
+
