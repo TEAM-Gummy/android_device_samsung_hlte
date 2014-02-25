@@ -55,6 +55,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GummyNote3Settings 
 
+# Extended media support
+PRODUCT_PACKAGES += \
+    qcmediaplayer
+
+PRODUCT_BOOT_JARS += qcmediaplayer
+
 # support for epen
 PRODUCT_COPY_FILES += \
     device/samsung/hlte/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
