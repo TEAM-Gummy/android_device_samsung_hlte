@@ -99,13 +99,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.ril.rc \
     init.target.rc \
-    ueventd.qcom.rc \
-    init.lk.rc
-
-PRODUCT_COPY_FILES += \
-    device/samsung/hlte/rootdir/sbin/lkconfig:root/sbin/lkconfig \
-    device/samsung/hlte/rootdir/sbin/lk-post-boot.sh:root/sbin/lk-post-boot.sh
-
+    ueventd.qcom.rc
 # HAL
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
