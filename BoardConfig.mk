@@ -38,7 +38,6 @@ TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 #TARGET_KERNEL_CUSTOM_TOOLCHAIN := Linaro-4.7
 
 # Kernel
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
