@@ -33,7 +33,6 @@ TARGET_KERNEL_CONFIG := msm8974_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8974_sec_hlte_eur_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/hlte
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.7
 
 # Audio
 BOARD_HAVE_NEW_QCOM_CSDCLIENT := true
